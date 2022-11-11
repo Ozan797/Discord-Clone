@@ -143,21 +143,21 @@ header {
   margin-bottom: 20px;
 }
 
-.section-1-content {
+.section-content {
   justify-content: center;
   align-items: center;
   flex-direction: column;
   max-width: 500px;
 }
 
-.section-1-content h2 {
+.section-content h2 {
   font-family: var(--font-headline);
   font-size: 54px;
   padding-bottom: 25px;
   max-width: 380px;
 }
 
-.section-1-content p {
+.section-content p {
   font-size: 20px;
   line-height: 1.625;
   padding-bottom: 25px;
@@ -176,31 +176,6 @@ header {
   gap: 80px;
   background-color: #f6f6f6;
 }
-
-.section-2-content {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 500px;
-}
-
-.section-2-content h2 {
-  font-family: var(--font-headline);
-  font-size: 54px;
-  padding-bottom: 25px;
-  max-width: 380px;
-}
-
-.section-2-content p {
-  font-size: 20px;
-  line-height: 1.625;
-  padding-bottom: 25px;
-  font-family: "Whitney";
-  font-weight: 400;
-  max-width: 380px;
-}
-
-
 
 
 .section-3 {
