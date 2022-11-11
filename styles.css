@@ -99,7 +99,7 @@ header {
 .hero {
   justify-content: center;
   align-items: center;
-  min-height: 76vh;
+  min-height: 70vh;
   background-color: blue;
 }
 
