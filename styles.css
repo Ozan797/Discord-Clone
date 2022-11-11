@@ -58,8 +58,6 @@ header {
     align-items: center;
     background-color: var(--brand);
     padding: 10px;
-    margin-left: 10vw;
-    width: 80%;
 }
 
 .nav-items {
@@ -81,7 +79,7 @@ header {
     color: var(--white);
     font-family: 'Whitney';
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .nav-items li a:hover {
