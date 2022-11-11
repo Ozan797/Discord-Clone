@@ -50,6 +50,8 @@ header {
   display: flex;
 }
 
+/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -92,10 +94,7 @@ header {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-
-
-
-
+/* Hero */
 
 .hero {
   justify-content: center;
