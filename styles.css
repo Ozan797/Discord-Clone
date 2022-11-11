@@ -115,20 +115,26 @@ header {
 .intro-container h1{
   font-family: var(--font-headline);
   /* font-weight: 800; */
-  padding-bottom: 25px;
+  padding-bottom: 30px;
+  padding-top: 70px;
   font-size: 60px;
   text-transform: uppercase;
 }
 
 .intro-container p {
+  font-family: "Whitney";
   font-size: 20px;
   line-height: 1.625;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 }
 
 .btn-download,
 .btn-open {
-  font-size: 15px;
+  margin-right: 20px;
+  border-radius: 30px;
+  padding: 15px 30px;
+  margin-left: 2px;
+  font-size: 20px;
 }
 
 
