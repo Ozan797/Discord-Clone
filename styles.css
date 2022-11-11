@@ -199,3 +199,13 @@ header {
   font-weight: 400;
   max-width: 380px;
 }
+
+
+
+
+.section-3 {
+    justify-content: center;
+    align-items: center;
+    min-height: 76vh;
+    gap: 80px;
+}
