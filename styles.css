@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/whitney-2');
+@import url("https://fonts.cdnfonts.com/css/whitney-2");
 
 :root {
   --brand: rgb(88, 101, 242);
@@ -33,20 +33,19 @@
 }
 
 header {
-    font-family: 'Whitney', sans-serif;
-    background:transparent;
-    position: absolute;
-    width: 100%;
-    
+  font-family: "Whitney", sans-serif;
+  background: transparent;
+  position: absolute;
+  width: 100%;
 }
 
 .btn {
-    background-color: white;
-    border: none;
-    border-radius: 200px;
-    padding: 10px 13px;
-    font-family: 'Whitney';
-    transition: 0.3s ease;
+  background-color: white;
+  border: none;
+  border-radius: 200px;
+  padding: 10px 13px;
+  font-family: "Whitney";
+  transition: 0.3s ease;
 }
 
 .flex {
@@ -56,42 +55,42 @@ header {
 /* Navbar */
 
 .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
 }
 
 .nav-items {
-    display: flex;
+  display: flex;
 }
 
 .navbar img {
-    width: 150px;
-    cursor: pointer;
+  width: 150px;
+  cursor: pointer;
 }
 
 .nav-items li {
-    list-style: none;
-    margin: 0 20px;
+  list-style: none;
+  margin: 0 20px;
 }
 
 .nav-items li a {
-    text-decoration: none;
-    color: var(--white);
-    font-family: 'Whitney';
-    font-size: 16px;
-    font-weight: 600;
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Whitney";
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .nav-items li a:hover {
-    border-bottom: 2px white solid;
+  border-bottom: 2px white solid;
 }
 
 .login-btn:hover {
-    cursor: pointer;
-    color: var(--brand);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: var(--brand);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Hero */
@@ -112,7 +111,7 @@ header {
   background-color: red;
 }
 
-.intro-container h1{
+.intro-container h1 {
   font-family: var(--font-headline);
   /* font-weight: 800; */
   padding-bottom: 25px;
@@ -131,7 +130,6 @@ header {
   font-size: 15px;
 }
 
-
 /* Section 1 */
 
 .section-1 {
@@ -142,7 +140,7 @@ header {
 }
 
 .svg-container {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .section-1-content {
@@ -163,7 +161,41 @@ header {
   font-size: 20px;
   line-height: 1.625;
   padding-bottom: 25px;
-  font-family: 'Whitney';
+  font-family: "Whitney";
+  font-weight: 400;
+  max-width: 380px;
+}
+
+
+/* Section 2 */
+
+.section-2 {
+  justify-content: center;
+  align-items: center;
+  min-height: 76vh;
+  gap: 80px;
+  background-color: #f6f6f6;
+}
+
+.section-2-content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.section-2-content h2 {
+  font-family: var(--font-headline);
+  font-size: 54px;
+  padding-bottom: 25px;
+  max-width: 380px;
+}
+
+.section-2-content p {
+  font-size: 20px;
+  line-height: 1.625;
+  padding-bottom: 25px;
+  font-family: "Whitney";
   font-weight: 400;
   max-width: 380px;
 }
