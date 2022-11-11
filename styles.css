@@ -23,3 +23,54 @@
     "Arial", sans-serif;
   --font-cursive: "Reenie Beanie", "Comic Sans MS", cursive, sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn {
+  border: none;
+  padding: 15px 16px;
+  border-radius: 40px;
+}
+
+.hero {
+  justify-content: center;
+  align-items: center;
+  min-height: 76vh;
+  background-color: blue;
+}
+
+.hero-content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 750px;
+  background-color: red;
+}
+
+.intro-container h1{
+  font-family: var(--font-headline);
+  /* font-weight: 800; */
+  padding-bottom: 25px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.intro-container p {
+  font-size: 20px;
+  line-height: 1.625;
+  padding-bottom: 25px;
+}
+
+.btn-download,
+.btn-open {
+  font-size: 15px;
+}
