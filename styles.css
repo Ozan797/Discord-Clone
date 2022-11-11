@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #404eed;
-  --brand: rgb(88, 101, 242);
+  --brand: rgb(89, 102, 243);
   --brand-gradient: linear-gradient(90deg, #8ea1e1, #7289da);
   --greyple: #99aab5;
   --dark-not-black: #2c2f33;
@@ -244,4 +244,30 @@ header {
 
 .svg-container-4 {
     margin-right: 200px;
+}
+
+
+.start-btn {
+    min-height: 35vh;
+    background-color: var(--off-white);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-start {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding: 16px 35px;
+    margin-left: 2px;
+    font-size: 20px;
+    background-color: var(--brand);
+    color: var(--white);
+}
+
+.btn-start:hover {
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(89, 102, 243, 0.825);
 }
