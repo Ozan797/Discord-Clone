@@ -33,6 +33,11 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+
+}
+
 header {
   font-family: "Whitney", sans-serif;
   background: transparent;
@@ -51,6 +56,31 @@ header {
 
 .flex {
   display: flex;
+}
+
+/* SVG Background */
+
+.hero-svg1, #middle{
+  /* height: 100%; */
+  position: absolute;
+  top: -2.2%;
+  right: -17%;
+  z-index: 0;
+  width: 135%;
+}
+
+.hero-svg2, #left {
+  position: absolute;
+  top: 33%;
+  right: 73%;
+  z-index: 0;
+}
+
+.hero-svg3, #right {
+  position: absolute;
+  top: 32%;
+  left: 73%;
+  z-index: 0;
 }
 
 /* Navbar */
@@ -111,7 +141,7 @@ header {
   max-width: 765px;
   color: var(--white);
   /* background-color: red; */
-  z-index: 9999;
+  z-index: 1;
 }
 
 .intro-container h1 {
@@ -164,6 +194,7 @@ header {
   align-items: center;
   min-height: 76vh;
   gap: 80px;
+  background-color: #fff;
 }
 
 .svg-container {
@@ -210,6 +241,8 @@ header {
   align-items: center;
   min-height: 76vh;
   gap: 80px;
+  background-color: #fff;
+
 }
 
 /* Section 4 */
