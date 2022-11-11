@@ -99,7 +99,7 @@ header {
 .hero {
   justify-content: center;
   align-items: center;
-  min-height: 70.5vh;
+  min-height: 76vh;
   background-color: blue;
 }
 
@@ -137,5 +137,33 @@ header {
 .section-1 {
   justify-content: center;
   align-items: center;
-  min-height: 70.5vh;
+  min-height: 76vh;
+  gap: 80px;
+}
+
+.svg-container {
+    margin-bottom: 20px;
+}
+
+.section-1-content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.section-1-content h2 {
+  font-family: var(--font-headline);
+  font-size: 54px;
+  padding-bottom: 25px;
+  max-width: 380px;
+}
+
+.section-1-content p {
+  font-size: 20px;
+  line-height: 1.625;
+  padding-bottom: 25px;
+  font-family: 'Whitney';
+  font-weight: 400;
+  max-width: 380px;
 }
