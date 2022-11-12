@@ -1,5 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/whitney-2");
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap');
 :root {
   --primary-color: #404eed;
   --brand: rgb(89, 102, 243);
@@ -16,15 +16,8 @@
   --black: #000;
   --ekko-red: #de2761;
 
-  --font-primary: "Whitney";
-  --font-display: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif;
-  --font-headline: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif;
-  --font-monospace: "Menlo", "Consolas", "Monaco", monospace;
-  --font-glitch: "ArchivoBlack", "Whitney", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif;
-  --font-cursive: "Reenie Beanie", "Comic Sans MS", cursive, sans-serif;
+  --font-primary: "Whitney", sans-serif;
+  --font-headline: "Secular One","Anton", sans-serif;
 }
 
 * {
@@ -35,7 +28,6 @@
 
 body {
   overflow-x: hidden;
-
 }
 
 header {
@@ -61,27 +53,30 @@ header {
 
 /* SVG Background */
 
-.hero-svg1, #middle{
+.hero-svg1,
+#middle {
   /* height: 100%; */
   position: absolute;
   bottom: 0;
   left: -20%;
 }
 
-.hero-svg2, #left {
+.hero-svg2,
+#left {
   position: absolute;
   bottom: 0;
   left: -5%;
 }
 
-.hero-svg3, #right {
+.hero-svg3,
+#right {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
 .hero {
-    position: relative;
+  position: relative;
 }
 
 /* Navbar */
@@ -243,7 +238,6 @@ header {
   min-height: 76vh;
   gap: 80px;
   background-color: #fff;
-
 }
 
 /* Section 4 */
@@ -276,39 +270,41 @@ header {
   font-weight: 400;
 }
 
-.svg-container-4 img{
-    width: 130%;
+.svg-container-4 img {
+  width: 130%;
 }
 
 .svg-container-4 {
-    margin-right: 200px;
+  margin-right: 200px;
 }
 
 /* Button Section */
 
 .start-btn {
-    min-height: 35vh;
-    background-color: var(--off-white);
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  min-height: 35vh;
+  background-color: var(--off-white);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--font-headline);
+  font-size: 30px;
 }
 
 .btn-start {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 30px;
-    padding: 16px 35px;
-    margin-left: 2px;
-    font-size: 20px;
-    background-color: var(--brand);
-    color: var(--white);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  padding: 16px 35px;
+  margin-left: 2px;
+  font-size: 20px;
+  background-color: var(--brand);
+  color: var(--white);
 }
 
 .btn-start:hover {
-    cursor: pointer;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-    background-color: rgba(89, 102, 243, 0.825);
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(89, 102, 243, 0.825);
 }
 
 /* Footer */
@@ -323,63 +319,67 @@ header {
 }
 
 .footer > * {
-    padding-top: 100px;
-    color: var(--brand);
-    align-self: stretch;
+  padding-top: 100px;
+  color: var(--brand);
+  align-self: stretch;
 }
 .col {
-    display: flex;
-    flex-direction: column;
-    min-width: 10vw;
+  display: flex;
+  flex-direction: column;
+  min-width: 10vw;
 }
 
 .col > * {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .col > a {
-    text-decoration: none;
-    color: var(--white);
-    font-family: "Whitney";
-    font-size: 16px;
-    font-weight: 400;
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Whitney";
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .col > a:hover {
-    border-bottom: 2px white solid;
+  border-bottom: 2px white solid;
 
-    max-width: fit-content;
+  max-width: fit-content;
 }
 
 .col > h4 {
-    font-family: "Whitney";
-    font-weight: 400;
-
+  font-family: "Whitney";
+  font-weight: 400;
 }
 
 .col-1 {
-    margin-right: 50px;
-    max-width: 6vw;
+  margin-right: 50px;
+  max-width: 6vw;
+  font-size: 14px;
+  font-family: var(--font-headline);
 }
+
 .spacer {
-    width: 70px;
+  width: 70px;
 }
 
 @media screen and (max-width: 1440px) {
-
-  .hero-svg1, #middle{
+  .hero-svg1,
+  #middle {
     position: absolute;
     bottom: 0;
     left: -40%;
   }
 
-  .hero-svg2, #left {
+  .hero-svg2,
+  #left {
     position: absolute;
     bottom: 0;
     left: -20%;
   }
-  
-  .hero-svg3, #right {
+
+  .hero-svg3,
+  #right {
     position: absolute;
     bottom: 0;
     right: -15%;
@@ -387,26 +387,28 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-
-  .hero-svg1, #middle{
+  .hero-svg1,
+  #middle {
     position: absolute;
     bottom: 0;
     left: -80%;
   }
 
-  .hero-svg2, #left {
+  .hero-svg2,
+  #left {
     position: absolute;
     bottom: 0;
     left: -50%;
   }
-  
-  .hero-svg3, #right {
+
+  .hero-svg3,
+  #right {
     position: absolute;
     bottom: 0;
     right: -40%;
   }
 
-  .svg-container-4 img{
+  .svg-container-4 img {
     width: 115%;
   }
 
@@ -421,13 +423,14 @@ header {
 }
 
 @media screen and (max-width: 1000px) {
-
-  .hero-svg1, #middle{
+  .hero-svg1,
+  #middle {
     left: -70%;
     width: 160%;
   }
 
-  .hero-svg2, #left {
+  .hero-svg2,
+  #left {
     display: none;
   }
 
@@ -436,10 +439,10 @@ header {
   }
 
   .hero-content {
-  text-align: left;  
-  align-items: flex-start;
-  padding-right: 185px;
-  padding-bottom: 60px;
+    text-align: left;
+    align-items: flex-start;
+    padding-right: 185px;
+    padding-bottom: 60px;
   }
 
   .hero-content h1 {
@@ -459,8 +462,9 @@ header {
   .hero-buttons button {
     margin-bottom: 24px;
   }
-  
-  .hero-svg3, #right {
+
+  .hero-svg3,
+  #right {
     position: absolute;
     bottom: 0;
     right: -11%;
@@ -481,7 +485,7 @@ header {
 
   .section-1,
   .section-2,
-  .section-3{
+  .section-3 {
     gap: 20px;
   }
 
@@ -489,9 +493,7 @@ header {
     margin-left: 50px;
   }
 
-  .section-content-4{
+  .section-content-4 {
     margin: 0 20px;
   }
-
-
 }
