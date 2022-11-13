@@ -1,23 +1,19 @@
 @import url("https://fonts.cdnfonts.com/css/whitney-2");
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap');
+
 :root {
   --primary-color: #404eed;
   --brand: rgb(89, 102, 243);
-  --brand-gradient: linear-gradient(90deg, #8ea1e1, #7289da);
   --greyple: #99aab5;
   --dark-not-black: #2c2f33;
-  --focus-border: #00b0f4;
-  --status-green: #43b581;
-  --text-link: #00b0f4;
-  --off-white: #f6f6f6;
   --white: #fff;
   --not-quite-black: #23272a;
   --not-quite-black-rgb: 35, 39, 42;
   --black: #000;
-  --ekko-red: #de2761;
 
   --font-primary: "Whitney", sans-serif;
   --font-headline: "Secular One","Anton", sans-serif;
+
 }
 
 * {
@@ -142,7 +138,6 @@ header {
 
 .intro-container h1 {
   font-family: var(--font-headline);
-  /* font-weight: 800; */
   padding-bottom: 30px;
   padding-top: 55px;
   font-size: 60px;
@@ -367,14 +362,12 @@ header {
   width: 70px;
 }
 
-/* Media Queries */
-
 @media screen and (max-width: 1440px) {
   .hero-svg1,
   #middle {
     position: absolute;
     bottom: 0;
-    left: -80%;
+    left: -40%;
   }
 
   .hero-svg2,
@@ -429,7 +422,6 @@ header {
 }
 
 @media screen and (max-width: 1000px) {
-
   .footer {
     display: none;
   }
@@ -495,15 +487,9 @@ header {
 
   .section-1,
   .section-2,
-  .section-3{
-    min-height: 70vh;
+  .section-3 {
     gap: 20px;
   }
-
-  .section-2,
-  .section-3 {
-  min-height: 60vh;
-}
 
   .section-4 img {
     margin-left: 50px;
@@ -577,17 +563,9 @@ header {
   }
 
   .section-content {
+
     margin: 0 20px;
   }
 
-  .section-4 {
-padding: 30px 0;  }
-
-.section-content-4 h2 {
-  font-size: 25px;
 }
 
-.svg-container-4 img {
-  width: 150%;
-}
-}
