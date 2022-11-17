@@ -3,6 +3,7 @@
 
 :root {
   --primary-color: #404eed;
+  --secondary-color: #f6f6f6;
   --brand: rgb(89, 102, 243);
   --greyple: #99aab5;
   --dark-not-black: #2c2f33;
@@ -39,7 +40,7 @@ header {
 }
 
 .btn {
-  background-color: white;
+  background-color: var(--white);
   border: none;
   border-radius: 200px;
   padding: 10px 13px;
@@ -110,7 +111,7 @@ header {
 }
 
 .nav-items li a:hover {
-  border-bottom: 2px white solid;
+  border-bottom: 2px var(--white) solid;
 }
 
 .login-btn:hover {
@@ -124,7 +125,7 @@ header {
 .hero {
   justify-content: center;
   align-items: center;
-  min-height: 76vh;
+  min-height: 625px;
   background-color: var(--primary-color);
 }
 
@@ -185,9 +186,9 @@ header {
 .section-1 {
   justify-content: center;
   align-items: center;
-  min-height: 76vh;
-  gap: 80px;
-  background-color: #fff;
+  min-height: 680px;
+  gap: 110px;
+  background-color: var(--white);
 }
 
 .svg-container {
@@ -203,13 +204,13 @@ header {
 
 .section-content h2 {
   font-family: var(--font-headline);
-  font-size: 54px;
+  font-size: 48px;
   padding-bottom: 25px;
   max-width: 380px;
 }
 
 .section-content p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.625;
   padding-bottom: 25px;
   font-family: "Whitney";
@@ -222,9 +223,9 @@ header {
 .section-2 {
   justify-content: center;
   align-items: center;
-  min-height: 76vh;
-  gap: 80px;
-  background-color: #f6f6f6;
+  min-height: 680px;
+  gap: 110px;
+  background-color: var(--secondary-color);
 }
 
 /* Section 3 */
@@ -232,9 +233,9 @@ header {
 .section-3 {
   justify-content: center;
   align-items: center;
-  min-height: 76vh;
-  gap: 80px;
-  background-color: #fff;
+  min-height: 680px;
+  gap: 110px;
+  background-color: var(--white);
 }
 
 /* Section 4 */
@@ -243,8 +244,8 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 76vh;
-  background-color: #f6f6f6;
+  min-height: 840px;
+  background-color: var(--secondary-color);
 }
 
 .section-content-4 {
@@ -255,7 +256,7 @@ header {
 .section-content-4 h2 {
   font-family: var(--font-headline);
   font-size: 54px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   margin-top: 100px;
 }
 
@@ -278,22 +279,21 @@ header {
 /* Button Section */
 
 .start-btn {
-  min-height: 35vh;
-  background-color: var(--off-white);
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 120px;
   font-family: var(--font-headline);
   font-size: 30px;
 }
 
 .start-btn h1 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .btn-start {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 100px;
   border-radius: 30px;
   padding: 16px 35px;
   margin-left: 2px;
@@ -314,7 +314,7 @@ header {
   justify-content: center;
   align-items: center;
   align-self: flex-start;
-  min-height: 60vh;
+  min-height: 500px;
   background-color: var(--not-quite-black);
   align-content: flex-start;
 }
