@@ -364,6 +364,8 @@ header {
   width: 70px;
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 1440px) {
   .hero-svg1,
   #middle {
@@ -409,8 +411,24 @@ header {
     right: -40%;
   }
 
+  .section-1 img {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .section-2 img {
+    width: 100%;
+    margin-right: 15px;
+  }
+
+  .section-3 img {
+    width: 100%;
+    margin-left: 25px;
+  }
+
   .svg-container-4 img {
     width: 115%;
+    margin-left: 40px;
   }
 
   .section-content:nth-child(0),
@@ -419,7 +437,7 @@ header {
   }
 
   .section-content:nth-child(1) {
-    margin-left: 20px;
+    margin-left: 35px;
   }
 }
 
